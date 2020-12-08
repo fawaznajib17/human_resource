@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>ambil dipostman</h1>
+    <h1>post dipostman</h1>
     <div>
     </div>
 </body>
