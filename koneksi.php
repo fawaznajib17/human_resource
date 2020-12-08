@@ -1,6 +1,6 @@
 <?php
 
-$host = "https://www.db4free.net/phpMyAdmin/server_databases.php";
+$host = "db4free.net";
 $user = "fawaz";
 $pass = "fawaznajib17";
 $database = "human_resource";
