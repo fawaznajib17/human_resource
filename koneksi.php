@@ -1,7 +1,7 @@
 <?php
 
 $host = "db4free.net";
-$user = "fawaz";
+$user = "fawaznajib";
 $pass = "fawaznajib17";
 $database = "human_resource";
 $koneksi = mysqli_connect ($host, $user, $pass, $database);
