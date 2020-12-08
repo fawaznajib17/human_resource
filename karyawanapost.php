@@ -20,7 +20,7 @@ $arr = json_decode(file_get_contents("php://input"));
 if (empty($arr)) {
     exit("Data empty.");
 } else {
-    $con = mysqli_connect('localhost', 'root', '', 'human_resource');
+    $con = mysqli_connect('db4free.net', 'fawaznajib', 'fawaznajib17', 'human_resource');
     $id_divisi = "";
     $id_jabatan = "";
     $nama_lengkap = "";
