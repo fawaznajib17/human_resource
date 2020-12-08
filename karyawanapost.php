@@ -18,7 +18,7 @@
 $arr = json_decode(file_get_contents("php://input"));
 
 if (empty($arr)) {
-    exit("Data empty.");
+    exit("");
 } else {
     $con = mysqli_connect('db4free.net', 'fawaznajib', 'fawaznajib17', 'human_resource');
     $id_divisi = "";
