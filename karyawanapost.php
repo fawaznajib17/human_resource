@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <title>Human Resource</title>
-</head>
-
-<body>
-    <h1>post dipostman</h1>
-    <div>
-    </div>
-</body>
-
-</html>
 <?php
+echo "post Dipostman"
 $arr = json_decode(file_get_contents("php://input"));
 
 if (empty($arr)) {
