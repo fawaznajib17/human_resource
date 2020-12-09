@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Human Resource API</h1>
+    <h1>Human Resource APII</h1>
     <div>
         <a href="karyawanapost.php">post karyawan</a>
         <a href="karyawanget.php">get karyawan</a>
