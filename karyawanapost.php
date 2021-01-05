@@ -27,7 +27,7 @@ if (empty($arr)) {
         if ($result) {
             while ($row = mysqli_fetch_assoc($result)) {
                 $id_divisi = $row['id_divisi'];
-                $id_namaDiv = $row['namaDiv'];
+                $id_namaDiv = $row['Nama_Divisi'];
             }
             $s = "SELECT * FROM jabatan WHERE id_jabatan = {$arr->id_jabatan}";
             $rsl = mysqli_query($con, $s);
