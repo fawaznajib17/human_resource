@@ -22,7 +22,7 @@ if (empty($arr)) {
     //     $kode_order = $arr->kode_order;
     // }
     if ($con) {
-        $sql = "SELECT * FROM divisi WHERE id_divisi  = {$arr->id_divisi} ";
+        $sql = "SELECT * FROM master_devisi WHERE id_divisi  = {$arr->id_divisi} ";
         $result = mysqli_query($con, $sql);
         if ($result) {
             while ($row = mysqli_fetch_assoc($result)) {
