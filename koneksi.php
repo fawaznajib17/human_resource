@@ -1,9 +1,9 @@
 <?php
 
-$host = "https://databases-auth.000webhost.com";
-$user = "id15843228_fawaznajib";
-$pass = "Sm0|m>jCfa5Qx(L5";
-$database = "id15843228_humanresource";
+$host = "db4free.net";
+$user = "fawaznajib";
+$pass = "fawaznajib17";
+$database = "human_resource";
 $koneksi = mysqli_connect ($host, $user, $pass, $database);
 if($koneksi){
 }else{
