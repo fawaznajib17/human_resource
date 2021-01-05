@@ -1,6 +1,6 @@
 
 <?php
-echo "post Dipostman";
+echo "post dipostman";
 $arr = json_decode(file_get_contents("php://input"));
 
 if (empty($arr)) {
