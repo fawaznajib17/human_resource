@@ -1,6 +1,6 @@
 <?php
 
-$host = "localhost";
+$host = "https://databases-auth.000webhost.com";
 $user = "id15843228_fawaznajib";
 $pass = "Sm0|m>jCfa5Qx(L5";
 $database = "id15843228_humanresource";
