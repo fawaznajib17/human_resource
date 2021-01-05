@@ -29,12 +29,12 @@ if (empty($arr)) {
                 $id_divisi = $row['id_divisi'];
                 $id_namaDiv = $row['Nama_Divisi'];
             }
-            $s = "SELECT * FROM jabatan WHERE id_jabatan = {$arr->id_jabatan}";
+            $s = "SELECT * FROM master_jabatan WHERE id_jabatan = {$arr->id_jabatan}";
             $rsl = mysqli_query($con, $s);
             if ($rsl) {
                 while ($r = mysqli_fetch_assoc($rsl)) {
                     $id_jabatan = $r['id_jabatan'];
-                    $jabatan = $r['namajabatan'];
+                    $jabatan = $r['Nama_Jabatan'];
                 }
                 $strquery = "INSERT INTO `karyawan` (`id_karyawan`, `id_divisi`,`id_jabatan`, `nama_lengkap`, 
                 `divisi`,`jabatan`, `alamat`, `status`,`jenis_kelamin`,`no_rek`,`noHP`) 
